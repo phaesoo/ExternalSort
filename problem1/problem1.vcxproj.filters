@@ -1,26 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{bffeed76-0cc0-4bbc-b060-e3dc25fd144b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\problem">
+      <UniqueIdentifier>{6bace373-1643-4a8b-ba29-e0c473f1b53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\performance">
+      <UniqueIdentifier>{f495425e-0e11-402c-aa8f-29e9eafd75dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testcase">
+      <UniqueIdentifier>{9ec07e65-8060-4ed1-bd2a-f3c29e1d784f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="TextUtil.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="PerfChecker.cpp">
+      <Filter>src\performance</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TextUtil.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="basic_function.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_definition.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfChecker.h">
+      <Filter>src\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="TestcaseMaker.h">
+      <Filter>testcase</Filter>
+    </ClInclude>
+    <ClInclude Include="problem1_a.h">
+      <Filter>src\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="problem1_b.h">
+      <Filter>src\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="problem1_c.h">
+      <Filter>src\problem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

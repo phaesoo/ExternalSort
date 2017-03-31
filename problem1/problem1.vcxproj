@@ -140,10 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="TextUtil.cpp" />
+    <ClCompile Include="PerfChecker.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TextUtil.h" />
+    <ClInclude Include="basic_definition.h" />
+    <ClInclude Include="basic_function.h" />
+    <ClInclude Include="PerfChecker.h" />
+    <ClInclude Include="problem1_a.h" />
+    <ClInclude Include="problem1_b.h" />
+    <ClInclude Include="problem1_c.h" />
+    <ClInclude Include="TestcaseMaker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
