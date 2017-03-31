@@ -51,7 +51,7 @@ int main()
     if (!pf.GetTotalPerformTime(time)) { assert(0); }
 
     cout << "Finish to solve!" << endl
-        << "Result file path : " << GetTestcaseFileName() << endl
+        << "Result file path : " << GetSizeSortFileName() << endl
         << "Performance time : " << time << " (ms)" << endl << endl;
 
 	return 0;

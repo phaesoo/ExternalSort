@@ -14,7 +14,7 @@ void SolveProblem1_c()
 // 추가규칙 : 개수가 같은 경우 데이터숫자가 적은 데이터부터 정렬
 void SizeSort()
 {
-    ifstream inFile(GetTestcaseFileName(), ifstream::binary);
+    ifstream inFile(GetExternalSortName(), ifstream::binary);
 
     // geline할때 local 변수로 정의해도 되지만
     // 미리 공간 예약해 놈으로서 성능향상 도모
